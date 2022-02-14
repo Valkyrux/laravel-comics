@@ -1,44 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-@import "node_modules/font-awesome/scss/font-awesome.scss";
-@import "partials/_variables.scss";
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 100%;
-    font-family: 'Noto Sans', sans-serif;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.text-uppercase {
-    text-transform: uppercase;
-}
-
-.font-bold {
-    font-weight: 700;
-}
+@import "./paritials/variables";
+@import "./paritials/commons";
+@import "./paritials/header";
 
 .jumbo {
     height: 500px;
     background-image: url('/img/jumbotron.jpg');
+    background-position: top;
+    background-size: cover;
 }

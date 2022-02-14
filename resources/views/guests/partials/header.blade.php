@@ -1,17 +1,17 @@
 <header class="text-uppercase">
     <div class="header-top">
         <div class="container">
-            <a href="#">dc power visa</a>
-            <a href="#">additional dc sites</a>
+            <a href="#">dc power visa <i class="fa fa-registered"></i></a>
+            <a href="#">additional dc sites <i class="fa fa-caret-down"></i></a>
         </div>
     </div>
     <div class="header-bottom d-flex container">
-        <div>
-            <img src="" alt="">
+        <div class="img-container">
+            <img src="{{asset('img/dc-logo.png')}}" alt="">
         </div>
         <ul class="d-flex font-bold">
             <li><a href="">characters</a></li>
-            <li><a href="">comics</a></li>
+            <li><a href="" class="active">comics</a></li>
             <li><a href="">movies</a></li>
             <li><a href="">tv</a></li>
             <li><a href="">games</a></li>
