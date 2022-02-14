@@ -5,11 +5,11 @@
             <a href="#">additional dc sites</a>
         </div>
     </div>
-    <div class="header-bottom">
+    <div class="header-bottom d-flex container">
         <div>
             <img src="" alt="">
         </div>
-        <ul>
+        <ul class="d-flex">
             <li><a href="">characters</a></li>
             <li><a href="">comics</a></li>
             <li><a href="">movies</a></li>
@@ -23,6 +23,7 @@
         </ul>
         <form action="">
             <input type="text" placeholder="Search">
+            <button><i class="fa fa-search"></i></button>
         </form>
     </div>
 </header>

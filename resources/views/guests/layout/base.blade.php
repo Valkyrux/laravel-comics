@@ -10,6 +10,8 @@
 <body>
     @include('guests.partials.header')
     
+    @include('guests.partials.jumbo')
+    
     @yield('content')
 
     @include('guests.partials.footer')
