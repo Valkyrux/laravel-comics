@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="container">
-            <p>All Site Content TM and 2020 DC Enterteinment, unless otherwise <a href="#">noted here</a>. All right reserved.<br><a href="#">Cookies settings</a></p>
+            <p>All Site Content TM and 2020 DC Enterteinment, unless otherwise <a href="#" class="special">noted here</a>. All right reserved.<br><a href="#" class="special">Cookies settings</a></p>
         </div>
     </div>
     <div class="footer-bottom text-uppercase">
@@ -59,11 +59,11 @@
             <div class="d-flex">
                 <h2>follow us</h2>
                 <ul class="d-flex">
-                    <li><a href=""><i class="fa fa-facebook"></i></li>
-                    <li><a href=""><i class="fa fa-twitter"></i></li>
-                    <li><a href=""><i class="fa fa-youtube"></i></li>
-                    <li><a href=""><i class="fa fa-pinterest"></i></li>
-                    <li><a href=""><i class="fa fa-location-arrow"></i></li>
+                    <li><a href=""><img src="{{asset('img/footer-facebook.png')}}" alt=""></a></li>
+                    <li><a href=""><img src="{{asset('img/footer-twitter.png')}}" alt=""></a></li>
+                    <li><a href=""><img src="{{asset('img/footer-youtube.png')}}" alt=""></a></li>
+                    <li><a href=""><img src="{{asset('img/footer-pinterest.png')}}" alt=""></a></li>
+                    <li><a href=""><img src="{{asset('img/footer-periscope.png')}}" alt=""></a></li>
                 </ul>
             </div>
         </div>

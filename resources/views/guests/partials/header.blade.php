@@ -19,7 +19,7 @@
             <li><a href="">video</a></li>
             <li><a href="">fans</a></li>
             <li><a href="">news</a></li>
-            <li><a href="">shop</a></li>
+            <li><a href="">shop <i class="fa fa-caret-down token"></i></a></li>
         </ul>
         <form action="">
             <input type="text" placeholder="Search">
