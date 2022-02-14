@@ -48,6 +48,7 @@
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
             </div>
+            <img src="{{asset('img/dc-logo-bg.png')}}" class="img-bg" alt="">
         </div>
         <div class="container">
             <p>All Site Content TM and 2020 DC Enterteinment, unless otherwise <a href="#" class="special">noted here</a>. All right reserved.<br><a href="#" class="special">Cookies settings</a></p>
@@ -55,7 +56,7 @@
     </div>
     <div class="footer-bottom text-uppercase">
         <div class="container d-flex">
-            <button class="text-uppercase">sign-up now</button>
+            <button class="text-uppercase font-bold">sign-up now</button>
             <div class="d-flex">
                 <h2>follow us</h2>
                 <ul class="d-flex">

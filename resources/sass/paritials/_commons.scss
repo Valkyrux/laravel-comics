@@ -29,6 +29,14 @@ a {
     display: flex;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .text-uppercase {
     text-transform: uppercase;
 }

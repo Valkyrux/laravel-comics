@@ -3063,6 +3063,14 @@ a {
   display: flex;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -3149,6 +3157,7 @@ header .header-bottom form button {
 footer .footer-top {
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   padding: 40px 0;
+  overflow: hidden;
 }
 
 footer .footer-top h3 {
@@ -3171,6 +3180,17 @@ footer .footer-top p {
   color: gray;
 }
 
+footer .footer-top .container {
+  position: relative;
+}
+
+footer .footer-top .container .img-bg {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 footer .footer-bottom {
   background-color: #303030;
   height: 100px;
@@ -3182,19 +3202,27 @@ footer .footer-bottom .container {
   justify-content: space-between;
 }
 
-footer .footer-bottom h2 {
+footer .footer-bottom .container button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  font-size: 1em;
+  color: white;
+}
+
+footer .footer-bottom .container h2 {
   display: flex;
   align-items: center;
   color: #0282f9;
   font-size: 1em;
 }
 
-footer .footer-bottom a {
+footer .footer-bottom .container a {
   margin-left: 20px;
   display: block;
 }
 
-footer .footer-bottom a:hover {
+footer .footer-bottom .container a:hover {
   filter: brightness(200%);
 }
 
@@ -3203,5 +3231,56 @@ footer .footer-bottom a:hover {
   background-image: url("/img/jumbotron.jpg");
   background-position: top;
   background-size: cover;
+}
+
+main {
+  background-color: #1c1c1c;
+  position: relative;
+}
+
+main .main-label {
+  background-color: #0282f9;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1.2em;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+main .button-container {
+  text-align: center;
+}
+
+main .button-container button.load-more {
+  padding: 10px 40px;
+  background-color: #0282f9;
+  color: white;
+  border: 0;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  padding: 50px 0 20px;
+}
+
+.card-container .card {
+  width: calc(16.6666666667% - 20px);
+}
+
+.card-container .card .img-card-container {
+  height: 220px;
+  overflow: hidden;
+}
+
+.card-container .card .img-card-container img {
+  width: 100%;
+}
+
+.card-container .card h3 {
+  font-size: 1em;
+  color: white;
+  margin: 25px 0 40px;
 }
 
