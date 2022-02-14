@@ -1,0 +1,69 @@
+.jumbo {
+    height: 500px;
+    background-image: url('/img/jumbotron.jpg');
+    background-position: top;
+    background-size: cover;
+}
+
+main {
+    background-color: $dark;
+    position: relative;
+    & .main-label {
+        background-color: $blue;
+        padding: 10px 20px;
+        color: white;
+        font-size: 1.2em;
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+    }
+    & .button-container {
+        text-align: center;
+        & button.load-more {
+            padding: 10px 40px;
+            background-color: $blue;
+            color: white;
+            border: 0;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+    }
+    
+    & .card-container{
+        padding: 50px 0 20px;
+        .card {
+            width: calc((100% / 6) - 20px);
+            & .img-card-container {
+                height: 220px;
+                overflow: hidden;
+                & img {
+                    width: 100%;
+                }
+            }
+            h3 {
+                font-size: 1em;
+                color: white;
+                margin: 25px 0 40px;
+            }
+        }
+    }
+}
+
+nav.nav-buy {
+    background-color: $blue;
+    padding: 40px 0;
+    & a {
+        align-items: center;
+        color: white;
+        & img {
+            width: 40px;
+            margin-right: 10px;
+        }
+    }
+    // fix all imagine subscriptions troppo grande
+    & a:nth-child(4) {
+        & img {
+            width: 30px;
+        }
+    }
+}

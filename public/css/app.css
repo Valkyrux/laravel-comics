@@ -3075,6 +3075,10 @@ a {
   text-transform: uppercase;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -3162,78 +3166,6 @@ header .header-bottom form button {
   background-color: transparent;
 }
 
-footer .footer-top {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
-  padding: 40px 0;
-  overflow: hidden;
-}
-
-footer .footer-top h3 {
-  color: white;
-}
-
-footer .footer-top ul {
-  margin: 10px 20px 20px 0;
-}
-
-footer .footer-top a {
-  color: gray;
-}
-
-footer .footer-top a.special {
-  color: #0282f9;
-}
-
-footer .footer-top p {
-  color: gray;
-}
-
-footer .footer-top .container {
-  position: relative;
-}
-
-footer .footer-top .container .img-bg {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-footer .footer-bottom {
-  background-color: #303030;
-  height: 100px;
-}
-
-footer .footer-bottom .container {
-  height: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-
-footer .footer-bottom .container button {
-  padding: 10px 20px;
-  background-color: transparent;
-  border: 2px solid #0282f9;
-  font-size: 1em;
-  color: white;
-}
-
-footer .footer-bottom .container h2 {
-  display: flex;
-  align-items: center;
-  color: #0282f9;
-  font-size: 1em;
-}
-
-footer .footer-bottom .container a {
-  margin-left: 20px;
-  display: block;
-}
-
-footer .footer-bottom .container a:hover {
-  filter: brightness(200%);
-}
-
 .jumbo {
   height: 500px;
   background-image: url("/img/jumbotron.jpg");
@@ -3309,5 +3241,201 @@ nav.nav-buy a img {
 
 nav.nav-buy a:nth-child(4) img {
   width: 30px;
+}
+
+footer .footer-top {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+footer .footer-top h3 {
+  color: white;
+  font-size: 0.9em;
+}
+
+footer .footer-top ul {
+  margin: 10px 40px 20px 0;
+}
+
+footer .footer-top a {
+  color: gray;
+  font-size: 0.7em;
+  margin: 7px 0;
+}
+
+footer .footer-top a.special {
+  color: #0282f9;
+}
+
+footer .footer-top p {
+  color: gray;
+  font-size: 0.7em;
+}
+
+footer .footer-top p a {
+  font-size: 1em;
+}
+
+footer .footer-top .container {
+  position: relative;
+}
+
+footer .footer-top .container .img-bg {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer .footer-bottom {
+  background-color: #303030;
+  height: 100px;
+}
+
+footer .footer-bottom .container {
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-bottom .container button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  font-size: 1em;
+  color: white;
+}
+
+footer .footer-bottom .container h2 {
+  display: flex;
+  align-items: center;
+  color: #0282f9;
+  font-size: 1em;
+}
+
+footer .footer-bottom .container a {
+  margin-left: 20px;
+  display: block;
+}
+
+footer .footer-bottom .container a:hover {
+  filter: brightness(200%);
+}
+
+.container-small {
+  width: 60%;
+  padding: 60px 0;
+  margin: auto;
+}
+
+.blue-line {
+  position: relative;
+}
+
+.blue-line::before {
+  content: "";
+  height: 80px;
+  width: 166.6666666667%;
+  top: -80px;
+  position: absolute;
+  display: block;
+  background-color: #0282f9;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.highlight-content {
+  position: relative;
+}
+
+.highlight-content .img-comic {
+  position: absolute;
+  top: -20px;
+  transform: translateY(-100%);
+}
+
+.highlight-content h1 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  color: #003f5e;
+}
+
+.highlight-content .table-header {
+  background-color: #55ba59;
+  color: white;
+  font-size: 0.8em;
+}
+
+.highlight-content .table-header .opacity {
+  opacity: 0.6;
+  margin-right: 10px;
+}
+
+.highlight-content .table-header div {
+  padding: 15px;
+}
+
+.highlight-content .table-header .col-30 {
+  text-align: center;
+  border-left: 1px solid gainsboro;
+}
+
+.highlight-content p {
+  padding: 10px 0;
+  font-size: 0.83em;
+  color: gray;
+  line-height: 1.6em;
+}
+
+.highlight-content .adv {
+  color: gray;
+}
+
+.highlight-content .adv img {
+  width: 80%;
+}
+
+.comic-info-box {
+  font-size: 0.8em;
+  background-color: #f6f6f6;
+  border-top: 1px solid gainsboro;
+}
+
+.comic-info-box .col-50 {
+  width: 50%;
+}
+
+.comic-info-box .col-50:first-child {
+  padding-right: 20px;
+}
+
+.comic-info-box .col-50:last-child {
+  padding-left: 20px;
+}
+
+.comic-info-box .col-50 h2 {
+  margin-bottom: 20px;
+}
+
+.comic-info-box .col-50 .info-box {
+  padding: 10px;
+  border-top: 1px solid gainsboro;
+  color: #87d0ed;
+}
+
+.comic-info-box .col-50 .info-box:last-child {
+  border-bottom: 1px solid gainsboro;
+}
+
+.comic-info-box .col-50 h2,
+.comic-info-box .col-50 h3 {
+  color: #003f5e;
 }
 

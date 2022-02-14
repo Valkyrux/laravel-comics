@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/comics', function () {
+    $data = ['comics' => config('my_config.comics')];
+    return view('guests.home_comics', $data);
+})->name('comics');
+// undefined routes
 Route::get('/', function () {
     return view('guests.home_undefined');
 })->name('home');
@@ -20,11 +25,6 @@ Route::get('/', function () {
 Route::get('/characters', function () {
     return view('guests.home_undefined');
 })->name('characters');
-
-Route::get('/comics', function () {
-    $data = ['comics' => config('my_config.comics')];
-    return view('guests.home_comics', $data);
-})->name('comics');
 
 Route::get('/movies', function () {
     return view('guests.home_undefined');
@@ -57,3 +57,13 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('guests.home_undefined');
 })->name('shop');
+// end undefined routes
+
+Route::get('/comics/{id}', function ($id) {
+    $choosed_comic = collect(config('my_config.comics'))->firstWhere('id', $id);
+    if (!empty($choosed_comic)) {
+        return view('guests.comic_highlight', $choosed_comic);
+    } else {
+        abort('404');
+    }
+})->name('comic');

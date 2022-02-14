@@ -5,18 +5,25 @@ footer {
         overflow: hidden;
         & h3 {
             color: white;
+            font-size: 0.9em;
         }
         & ul {
-            margin: 10px 20px 20px 0;
+            margin: 10px 40px 20px 0;
         }
         & a {
             color: gray;
+            font-size: 0.7em;
+            margin: 7px 0;
             &.special {
                 color: $blue;
             }
         }
         & p {
             color: gray;
+            font-size: 0.7em;
+            & a {
+                font-size: 1em;
+            }
         }
         & .container {
             position: relative;
