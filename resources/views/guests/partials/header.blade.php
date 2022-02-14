@@ -1,4 +1,4 @@
-<header>
+<header class="text-uppercase">
     <div class="header-top">
         <div class="container">
             <a href="#">dc power visa</a>
@@ -9,7 +9,7 @@
         <div>
             <img src="" alt="">
         </div>
-        <ul class="d-flex">
+        <ul class="d-flex font-bold">
             <li><a href="">characters</a></li>
             <li><a href="">comics</a></li>
             <li><a href="">movies</a></li>

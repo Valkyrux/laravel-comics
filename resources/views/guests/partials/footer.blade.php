@@ -3,7 +3,7 @@
         <div class="container d-flex">
             <div>
                 <div>
-                    <h3>dc comics</h3>
+                    <h3 class="text-uppercase">dc comics</h3>
                     <ul>
                         <li><a href="#">Characters</a></li>
                         <li><a href="#">Comics</a></li>
@@ -15,7 +15,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h3>shop</h3>
+                    <h3 class="text-uppercase">shop</h3>
                     <ul>
                         <li><a href="#">Shop DC</a></li>
                         <li><a href="#">Shop DC Colletibles</a></li>
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div>
-                <h3>DC</h3>
+                <h3 class="text-uppercase">DC</h3>
                 <ul>
                     <li><a href="#">Terms of use</a></li>
                     <li><a href="#">Privacy policy(NEW)</a></li>
@@ -39,7 +39,7 @@
                 </ul>
             </div>
             <div>
-                <h3>Sites</h3>
+                <h3 class="text-uppercase">Sites</h3>
                 <ul>
                     <li><a href="#">DC</a></li>
                     <li><a href="#">MAD Magazine</a></li>
@@ -50,12 +50,12 @@
             </div>
         </div>
         <div class="container">
-            ciao
+            <p>All Site Content TM and 2020 DC Enterteinment, unless otherwise <a href="#">noted here</a>. All right reserved.<br><a href="#">Cookies settings</a></p>
         </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom text-uppercase">
         <div class="container d-flex">
-            <button>sign-up now</button>
+            <button class="text-uppercase">sign-up now</button>
             <div class="d-flex">
                 <h2>follow us</h2>
                 <ul class="d-flex">
