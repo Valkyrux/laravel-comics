@@ -3079,6 +3079,13 @@ a {
   font-weight: 700;
 }
 
+.undefined-route {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #1c1c1c;
+  color: white;
+}
+
 header .header-top {
   text-align: right;
   background-color: #0282f9;
@@ -3127,6 +3134,7 @@ header .header-bottom ul li a {
 
 header .header-bottom ul li a.active {
   border-bottom: 3px solid #0282f9;
+  color: #0282f9;
 }
 
 header .header-bottom ul li a .token {
@@ -3261,26 +3269,45 @@ main .button-container button.load-more {
   margin-bottom: 20px;
 }
 
-.card-container {
+main .card-container {
   padding: 50px 0 20px;
 }
 
-.card-container .card {
+main .card-container .card {
   width: calc(16.6666666667% - 20px);
 }
 
-.card-container .card .img-card-container {
+main .card-container .card .img-card-container {
   height: 220px;
   overflow: hidden;
 }
 
-.card-container .card .img-card-container img {
+main .card-container .card .img-card-container img {
   width: 100%;
 }
 
-.card-container .card h3 {
+main .card-container .card h3 {
   font-size: 1em;
   color: white;
   margin: 25px 0 40px;
+}
+
+nav.nav-buy {
+  background-color: #0282f9;
+  padding: 40px 0;
+}
+
+nav.nav-buy a {
+  align-items: center;
+  color: white;
+}
+
+nav.nav-buy a img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+nav.nav-buy a:nth-child(4) img {
+  width: 30px;
 }
 

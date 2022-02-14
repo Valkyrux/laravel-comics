@@ -33,23 +33,42 @@ main {
             margin-bottom: 20px;
         }
     }
-}
-
-.card-container{
-    padding: 50px 0 20px;
-    .card {
-        width: calc((100% / 6) - 20px);
-        & .img-card-container {
-            height: 220px;
-            overflow: hidden;
-            & img {
-                width: 100%;
+    
+    & .card-container{
+        padding: 50px 0 20px;
+        .card {
+            width: calc((100% / 6) - 20px);
+            & .img-card-container {
+                height: 220px;
+                overflow: hidden;
+                & img {
+                    width: 100%;
+                }
+            }
+            h3 {
+                font-size: 1em;
+                color: white;
+                margin: 25px 0 40px;
             }
         }
-        h3 {
-            font-size: 1em;
-            color: white;
-            margin: 25px 0 40px;
+    }
+}
+
+nav.nav-buy {
+    background-color: $blue;
+    padding: 40px 0;
+    & a {
+        align-items: center;
+        color: white;
+        & img {
+            width: 40px;
+            margin-right: 10px;
+        }
+    }
+    // fix all imagine subscriptions troppo grande
+    & a:nth-child(4) {
+        & img {
+            width: 30px;
         }
     }
 }

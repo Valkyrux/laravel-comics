@@ -23,5 +23,14 @@
             </div>
         </div>
     </main>
+    <nav class="nav-buy">
+        <div class="container d-flex justify-between">
+            <a href="#" class="text-uppercase d-flex"><img src="{{asset('img/buy-comics-digital-comics.png')}}" alt=""> digital comics</a>
+            <a href="#" class="text-uppercase d-flex"><img src="{{asset('img/buy-comics-merchandise.png')}}" alt=""> dc merchadise</a>
+            <a href="#" class="text-uppercase d-flex"><img src="{{asset('img/buy-comics-subscriptions.png')}}" alt=""> subscription</a>
+            <a href="#" class="text-uppercase d-flex"><img src="{{asset('img/buy-comics-shop-locator.png')}}" alt=""> comic shop locator</a>
+            <a href="#" class="text-uppercase d-flex"><img src="{{asset('img/buy-dc-power-visa.svg')}}" alt=""> dc power visa</a>
+        </div>
+    </nav>
 @endsection
 
